@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acerto | Insumos de Seguridad Industrial</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=
+  Lato:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+  rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <div class="header" id="inicio">
+    <div class="navbar">
+        <div class="logo">
+          <img src="images/acerto blanco-amarillo.png" alt="logo" />
+        </div>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <h1>Insumos de seguridad industrial</h1>
+          <p>Descubre la mejor tienda de seguridad industrial en Paraguay. En Acerto,
+             ofrecemos una amplia variedad de productos y servicios de seguridad industrial para proteger 
+             la salud y el bienestar de tus empleados en el lugar de trabajo. Nuestros expertos en 
+             seguridad industrial están aquí para ayudarte a encontrar las soluciones adecuadas para tus 
+             necesidades específicas y garantizar un entorno laboral seguro y saludable.
+          </p>
+          <a href="https://wa.me/+595984133732" class="btn">Contactanos &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Categorías -->
+
+  <div class="grid">
+  <div class="card">
+    <img src="images/guantesNitrilo.jpeg" alt="Guantes etc.">
+    <div class="overlay">Guantes y descartables</div>
+    <ul class="hover-list">
+      <li>Látex</li>
+      <li>Nitrilo</li>
+      <li>Descartables</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <img src="images/bota-cordones.jpeg" alt="Calzados">
+    <div class="overlay">Calzados de seguridad</div>
+    <ul class="hover-list">
+      <li>Botas industriales</li>
+      <li>Zapatos reforzados</li>
+      <li>Antideslizantes</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <img src="images/AnteojosSeguridad (2).jpeg" alt="Equipos de protecc">
+    <div class="overlay">Equipos de protección</div>
+    <ul class="hover-list">
+      <li>Gafas</li>
+      <li>Cascos</li>
+      <li>Respiradores</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <img src="images/ChalecoReflectivonNaranja.jpeg" alt="Indumentaria">
+    <div class="overlay">Indumentaria laboral</div>
+    <ul class="hover-list">
+      <li>Chalecos</li>
+      <li>Uniformes</li>
+      <li>Reflectivos</li>
+    </ul>
+  </div>
+</div>
+<!-----Formulario de contactos---->
+<form action="https://formsubmit.co/edtoledocat99@gmail.com" method="POST">
+<h2 class="titulo-form">Contacto</h2>
+<div class="input-group">
+
+    <label for="name">Nombre</label>
+    <input type="text" name="name" id="name" placeholder="Nombre" required>
+
+    <label for="phone">Teléfono</label>
+    <input type="tel" name="phone" id="phone" placeholder="Teléfono" required>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+
+    <label for="message">Mensaje</label>
+    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje" required></textarea>
+
+    <div class="form-txt">
+      <a href="#">Politica de privacidad</a>
+      <a href="#">Terminos y condiciones</a>
+
+    </div>
+    <input class="btn" type="submit" value="Enviar">
+
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+    <input type="hidden" name="_captcha" value="false">
+</div>
+</form>
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col-1">
+        <h3>Contáctanos</h3>
+        <p>0984-133-732</p>
+      </div>
+      <div class="footer-col-2">
+        <img src="images/acerto amarillo.png" alt="Logo Amarillo" />
+        <p>Objetivo, misión, slogan o propósito de la empresa</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Síguenos en</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>TikTok</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const nav = document.getElementById("nav");
+  menuToggle.addEventListener("click",()=> {
+    nav.classList.toggle("active");
+  })
+</script>
+</body>
+</html>
